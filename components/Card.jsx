@@ -20,7 +20,7 @@ function Card({ item, imageStyle }) {
       </p>
       <a
         href={`tel:${SiteInfo.mobileNumber}`}
-        className="themeBgColor text-black font-bold text-lg rounded-xl p-2 w-28 flex items-center justify-center group-hover:themeBgColor group-hover:text-white"
+        className="themeBgColor font-bold text-lg rounded-xl p-2 w-28 flex items-center justify-center group-hover:bg-gradient-to-r group-hover:from-[#da1b60] group-hover:to-[#ff8a00]; group-hover:text-white"
       >
         اتصل الان
       </a>
