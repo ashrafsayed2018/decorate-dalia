@@ -18,11 +18,12 @@ function Card({ item, imageStyle }) {
       <p className="text-right mb-8 text-white  text-[16px] font-semibold leading-6 px-3">
         {item.description}
       </p>
-      <Button
+      <a
         href={`tel:${SiteInfo.mobileNumber}`}
-        text="اتصل الان"
-        styles="themeBgColor text-black font-bold text-lg rounded-xl p-2 w-28 flex items-center justify-center group-hover:themeBgColor group-hover:text-white"
-      />
+        className="themeBgColor text-black font-bold text-lg rounded-xl p-2 w-28 flex items-center justify-center group-hover:themeBgColor group-hover:text-white"
+      >
+        اتصل الان
+      </a>
     </div>
   );
 }
