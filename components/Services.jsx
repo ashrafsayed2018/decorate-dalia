@@ -10,11 +10,7 @@ function Services() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {ServicesList.map((service) => {
           return (
-            <Card
-              key={service.id}
-              item={service}
-              imageStyle="h-32 w-32 rounded-full mt-4"
-            />
+            <Card key={service.id} item={service} imageStyle="h-80 w-full" />
           );
         })}
       </div>

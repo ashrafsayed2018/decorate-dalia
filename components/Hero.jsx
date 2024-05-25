@@ -9,19 +9,19 @@ const arefRuqaa = Aref_Ruqaa({ subsets: ["arabic"], weight: "400" });
 function Hero() {
   return (
     <section className={`${arefRuqaa.className}`}>
-      <div className="bg-[url('/images/hero.webp')] h-[550px] lg:h-screen bg-no-repeat bg-center bg-cover relative ">
+      <div className="bg-[url('/images/hero.jpg')] h-[550px] lg:h-screen bg-no-repeat bg-center bg-cover relative ">
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="site-description absolute inset-0 z-10 w-4/5 mx-auto h-full py-16 text-center flex flex-col justify-around">
           <h1
-            className="text-white text-xl md:text-4xl lg:text-7xl font-semibold mb-8 lg:mb-20 flex flex-col animate-slidein300"
+            className={`text-white text-xl md:text-4xl lg:text-7xl font-semibold mb-8 lg:mb-20 flex flex-col animate-slidein300 ${lemonda.className}`}
             style={{ lineHeight: 1.6 }}
           >
             {SiteInfo.title}&nbsp; {SiteInfo.mobileNumber}
           </h1>
           <p
-            className={`textColor hoverTextColor text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed text-center animate-slidein700 ${lemonda.className}`}
+            className={`text-white hoverTextColor text-lg md:text-2xl lg:text-3xl font-bold leading-relaxed text-center animate-slidein700 ${lemonda.className}`}
           >
-            ديانه نقل عفش وانيت نقل اثاث بجميع مناطق الرياض
+            {SiteInfo.fullDescription}
           </p>
           <div className={`mt-12 lg:mt-40 ${openSans.className}`}>
             <Button

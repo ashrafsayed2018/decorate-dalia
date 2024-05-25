@@ -3,7 +3,7 @@ import Image from "next/image";
 function Close({ styles, handleClose }) {
   return (
     <div
-      className="close hover:bg-red-400 w-16 h-16 flex items-center justify-center rounded-full cursor-pointer"
+      className="close hoverBgColor w-14 h-14 flex items-center justify-center rounded-full cursor-pointer"
       onClick={handleClose}
     >
       <Image
@@ -12,7 +12,7 @@ function Close({ styles, handleClose }) {
         width={22}
         height={22}
         priority={true}
-        className="text-white h-8 w-8"
+        className="text-white h-6 w-6"
       />
     </div>
   );

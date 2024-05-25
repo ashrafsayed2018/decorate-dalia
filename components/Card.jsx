@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./buttons/Button";
+import { SiteInfo } from "../app/data";
 
 function Card({ item, imageStyle }) {
   return (
@@ -18,8 +19,8 @@ function Card({ item, imageStyle }) {
         {item.description}
       </p>
       <Button
-        href={item.link}
-        text="اعرف المزيد"
+        href={`tel:${SiteInfo.mobileNumber}`}
+        text="اتصل الان"
         styles="themeBgColor text-black font-bold text-lg rounded-xl p-2 w-28 flex items-center justify-center group-hover:themeBgColor group-hover:text-white"
       />
     </div>

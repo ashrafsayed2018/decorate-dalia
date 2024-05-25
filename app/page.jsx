@@ -12,7 +12,7 @@ export default function Home() {
       <div className="px-3 lg:px-20">
         <Services />
         <About />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
         <Map />
       </div>

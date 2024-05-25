@@ -1,4 +1,4 @@
-import { AboutCompany } from "../app/data";
+import { AboutCompany, SiteInfo } from "../app/data";
 import Image from "next/image";
 import React from "react";
 
@@ -8,17 +8,17 @@ function About() {
       <h2 className="headingColor">حول شركتنا</h2>
       <span className="headingBorderColor"></span>
 
-      <p className="text-center text-lg mb-6">شركة نقل اثاث بالرياض</p>
+      <p className="text-center text-lg mb-6">{SiteInfo.title}</p>
       <div className="images w-full md:w-1/3 mx-auto grid grid-cols-1 md:grid-cols-7 md:h-48 gap-4">
         <Image
-          src="/images/about1.webp"
+          src="/images/dehanat.png"
           alt="about"
           width={300}
           height={200}
           className="w-full col-span-3 h-48 rounded-xl"
         />
         <Image
-          src="/images/about2.webp"
+          src="/images/decorat-dakhlyia.jpg"
           alt="about"
           width={300}
           height={200}

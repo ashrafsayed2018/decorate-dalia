@@ -37,10 +37,10 @@ function ContactDropDown() {
                     icon={link.icon}
                     color="white"
                     size="2x"
-                    className="group-hover:text-blue-500"
+                    className="group-hover:textColor"
                   />
                   <p
-                    className="text-white text-xl md:text-3xl lg:text-5xl group-hover:text-blue-500"
+                    className="text-white text-xl md:text-3xl lg:text-5xl group-hover:textColor"
                     dir="ltr"
                   >
                     {link.text}

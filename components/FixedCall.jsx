@@ -7,7 +7,7 @@ import React from "react";
 function FixedCall() {
   return (
     <div>
-      <div className="large-screen hidden lg:block fixed left-7 bottom-5 ">
+      <div className="large-screen hidden lg:block fixed left-7 bottom-5">
         <div
           className="themeBgColor h-[55px] w-[55px] rounded-full flex items-center justify-center group  transition-all duration-500 cursor-pointer"
           style={{
@@ -28,7 +28,7 @@ function FixedCall() {
             height={20}
             className="h-7 w-7 group-hover:block hidden"
           />
-          <div className="hidden group-hover:flex flex-col absolute bottom-[60px] left-[10px]">
+          <div className="w-16 hidden group-hover:flex flex-col items-center justify-end absolute bottom-[50px] left-0">
             {ContactInfo.map((link) => {
               return (
                 <Link
