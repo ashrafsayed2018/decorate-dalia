@@ -51,7 +51,7 @@ function Navbar() {
       <div className="themeBgColor hoverBgColor grid grid-cols-3 items-center h-full px-4">
         {/* logo and site name */}
         <div className="logo absolute top-[10px] left-1/2 -translate-x-1/2 md:static md:left-0 md:-translate-x-0  flex items-center gap-x-3 col-span-1 ">
-          <div className="image flex bg-white hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer">
+          <div className="image flex themeBgColor hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer">
             <Image
               src="/icons/car.svg"
               alt="logo"
@@ -85,11 +85,11 @@ function Navbar() {
           </ul>
           <div className="absolute top-[10px] left-4 md:static nav-dropdwons flex items-center gap-5">
             <div
-              className="map-dropdown flex bg-white hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
+              className="map-dropdown flex themeBgColor hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
               onClick={() => setMapDropIsOpen(!mapDropIsOpen)}
             >
               <Image
-                src="/icons/location-arrow.svg"
+                src="/icons/location-arrow-white.svg"
                 alt="location"
                 width={12}
                 height={12}
@@ -98,7 +98,7 @@ function Navbar() {
               />
             </div>
             <div
-              className="share-dropdown hidden md:flex bg-white hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
+              className="share-dropdown hidden md:flex themeBgColor hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
               onClick={() => setShareDropIsOpen(!shareDropIsOpen)}
             >
               <Image
@@ -111,7 +111,7 @@ function Navbar() {
               />
             </div>
             <div
-              className="contact-dropdown flex bg-white hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
+              className="contact-dropdown flex themeBgColor hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
               onClick={() => setContactDropIsOpen(!contactDropIsOpen)}
             >
               <Image
@@ -127,7 +127,7 @@ function Navbar() {
         </div>
         {/* mobile menu */}
         <div
-          className="mobile-menu md:hidden absolute top-[10px] right-5 flex bg-white hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
+          className="mobile-menu md:hidden absolute top-[10px] right-5 flex themeBgColor hoverBgColor w-10 h-10 items-center justify-center rounded-full cursor-pointer"
           onClick={() => setMenuIsOpen(!menuIsOpen)}
         >
           <Image

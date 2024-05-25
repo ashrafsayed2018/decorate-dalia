@@ -62,7 +62,7 @@ function MenuDropDown() {
           </li>
           <li className="bg-white cursor-pointer w-[29px] h-[29px] rounded-full flex items-center justify-center">
             <Image
-              src="/icons/share-alt.svg"
+              src="/icons/share-alt-black.svg"
               alt="share"
               width={12}
               height={12}
@@ -72,7 +72,7 @@ function MenuDropDown() {
           </li>
           <li className="bg-white cursor-pointer w-[29px] h-[29px] rounded-full flex items-center justify-center">
             <Image
-              src="/icons/phone.svg"
+              src="/icons/phone-black.svg"
               alt="phone"
               width={12}
               height={12}
