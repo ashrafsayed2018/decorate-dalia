@@ -48,7 +48,7 @@ export const SiteInfo = {
  فوم
  شيبورد بألوانه`,
   heroImage: "/images/hero.webp",
-  mobileNumber: "966530186131",
+  mobileNumber: "966557009560",
   whatsappNumber: "966533591470",
 };
 
