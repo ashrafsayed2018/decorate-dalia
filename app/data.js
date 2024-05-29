@@ -192,7 +192,7 @@ export const ContactInfo = [
     name: "الواتساب",
     href: `https://wa.me/${SiteInfo.whatsappNumber || SiteInfo.mobileNumber}`,
     icon: faWhatsapp,
-    text: `${SiteInfo.whatsappNumber || SiteInfo.mobileNumber}`,
+    text: `00${SiteInfo.whatsappNumber || SiteInfo.mobileNumber}`,
   },
   {
     id: 2,
