@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Close from "../buttons/Close";
 import { useContext } from "react";
 

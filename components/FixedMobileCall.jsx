@@ -1,7 +1,5 @@
 import { ContactInfo } from "../app/data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
-import React from "react";
 
 function FixedMobileCall() {
   return (
