@@ -49,7 +49,7 @@ export const SiteInfo = {
  شيبورد بألوانه`,
   heroImage: "/images/hero.webp",
   mobileNumber: "00966557009560",
-  whatsappNumber: "00966533591470",
+  whatsappNumber: "966533591470",
 };
 
 export const ServicesList = [
