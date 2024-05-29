@@ -8,7 +8,7 @@ function FixedMobileCall() {
     <div className="fixed bottom-0 left-0 right-0 w-full themeBgColor hoverBgColor flex items-center justify-center md:hidden h-16 z-50">
       {ContactInfo.map((link) => {
         return (
-          <Link
+          <a
             href={link.href}
             key={link.id}
             className="text-white flex-1 flex items-center justify-center flex-col "
@@ -22,7 +22,7 @@ function FixedMobileCall() {
               }`}
             />
             <span className="text-sm">{link.name}</span>
-          </Link>
+          </a>
         );
       })}
     </div>
