@@ -32,7 +32,7 @@ function ContactDropDown() {
                 key={link.id}
                 className="transition-all duration-500 group mb-3"
               >
-                <Link href={link.href} className="flex items-center gap-3 ">
+                <a href={link.href} className="flex items-center gap-3 ">
                   <FontAwesomeIcon
                     icon={link.icon}
                     color="white"
@@ -45,7 +45,7 @@ function ContactDropDown() {
                   >
                     {link.text}
                   </p>
-                </Link>
+                </a>
               </li>
             );
           })}
